@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.php" method="get" target="_blank">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama" />
+        <br />
+        <label for="NPM">NPM:</label>
+        <input type="number" id="NPM" name="NPM" placeholder="Masukkan NPM" required />
+        <br />
+        <label for="Kelas">Kelas:</label>
+        <select id="Kelas" name="Kelas" required >
+            <option value="">Pilih Kelas</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+        <br>
+        <label for="Tanggal">Tanggal:</label>
+        <input type="date" id="Tanggal" name="Tanggal" placeholder="Masukkan Tanggal" required />
+        <br />
+        <label for="Waktu">Waktu:</label>
+        <input type="time" id="Waktu" name="Waktu" placeholder="Masukkan Waktu" required />
+        <br />
+        <br>
+        <input type="submit" value="Submit" />
+
+        <datalist>
+            
+        </datalist>
+    </form>
+</body>
+</html>
