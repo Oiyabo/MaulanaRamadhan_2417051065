@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+p {
+  text-align: center;
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+table {
+    max-width: 75vmin;
+    max-height: 7vmin;
+}
+
+table td {
+  text-align: center;
+}
+
+img {
+  height: 20vmin;
+  width: 20vmin;
+  border-radius: 10%;
+}
+table tr td {
+  background-color: azure;
+}
+table tr td:first-child {
+  background-color: blanchedalmond;
+}
+
+table tr:first-child td:first-child {
+  background-color: aqua;
+}
+table tr:first-child td:last-child {
+  background-color: aquamarine;
+}
+table tr:nth-child(2) td {
+  background-color: bisque;
+}
